@@ -37,7 +37,7 @@ void draw() {
     float y = height - barHeight;  
     
     // Higher frequencies increase intensity 
-    float saturation = 100 * freq / maxFreq;
+    float saturation = 100.0 * freq / maxFreq;
     fill(0, saturation, 75);
     
     rect(x, y, barWidth, barHeight); 
